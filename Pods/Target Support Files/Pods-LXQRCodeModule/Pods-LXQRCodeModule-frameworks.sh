@@ -197,12 +197,10 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LXAppConstManager/LXAppConstManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LXFitManager/LXFitManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LXQRCodeManager/LXQRCodeManager.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/LXAppConstManager/LXAppConstManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LXFitManager/LXFitManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LXQRCodeManager/LXQRCodeManager.framework"
 fi

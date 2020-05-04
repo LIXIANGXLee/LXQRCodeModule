@@ -23,7 +23,7 @@
 		048B8A832460138A00AD218E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048B8A862460138A00AD218E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048B8A882460138A00AD218E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		048B8A93246014FE00AD218E /* LXQRCodeManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LXQRCodeManager.podspec; sourceTree = "<group>"; };
+		048B8A93246014FE00AD218E /* LXQRCodeManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LXQRCodeManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		048B8ADE24604E7B00AD218E /* LXTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXTestViewController.swift; sourceTree = "<group>"; };
 		5AE820D8DBC5D5A372C4ED48 /* Pods-LXQRCodeModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXQRCodeModule.debug.xcconfig"; path = "Target Support Files/Pods-LXQRCodeModule/Pods-LXQRCodeModule.debug.xcconfig"; sourceTree = "<group>"; };
 		7DE2D391B3A155E963CF8324 /* Pods_LXQRCodeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXQRCodeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };

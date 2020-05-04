@@ -21,9 +21,6 @@
   "dependencies": {
     "LXFitManager": [
 
-    ],
-    "LXAppConstManager": [
-
     ]
   },
   "swift_version": "5.0"
