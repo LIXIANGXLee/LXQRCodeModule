@@ -11,10 +11,10 @@ import UIKit
 // MARK: - LXAPP 常用的全局变量
 
 /// 定义一下app经常用到的全局常量
-public struct LXQrCodeConst {
+public struct LXQRCodeConst {
 
    ///根据高度来判断是否是带刘海的手机,也可以通过safaAreaInserts来判断
-    public static let isIPhoneX    = (LXQrCodeConst.screenH == CGFloat(812) || LXQrCodeConst.screenH == CGFloat(896)) ? true : false
+    public static let isIPhoneX    = (LXQRCodeConst.screenH == CGFloat(812) || LXQRCodeConst.screenH == CGFloat(896)) ? true : false
     ///app屏幕宽度
     public static let screenW = CGFloat(UIScreen.main.bounds.width)
     ///app屏幕高度

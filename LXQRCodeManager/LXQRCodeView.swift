@@ -110,19 +110,19 @@ extension LXQRCodeView {
     
     /// 添加导航的view
     private func setNavUI() {
-        let bgNavView = UIView(frame: CGRect(x: 0, y: 0, width: LXQrCodeConst.screenW, height: LXQrCodeConst.navbarH))
+        let bgNavView = UIView(frame: CGRect(x: 0, y: 0, width: LXQRCodeConst.screenW, height: LXQRCodeConst.navbarH))
         bgNavView.backgroundColor = UIColor.black.withAlphaComponent(0.5)
         addSubview(bgNavView)
 
         let cancelBtn = UIButton(type: UIButton.ButtonType.custom)
-        cancelBtn.frame = CGRect(x:LXFit.fitFloat(8), y: LXQrCodeConst.statusbarH, width: LXFit.fitFloat(52), height: 44)
+        cancelBtn.frame = CGRect(x:LXFit.fitFloat(8), y: LXQRCodeConst.statusbarH, width: LXFit.fitFloat(52), height: 44)
         cancelBtn.setTitle("取消", for: UIControl.State.normal)
         cancelBtn.setTitleColor(UIColor.white, for: UIControl.State.normal)
         cancelBtn.titleLabel?.font = UIFont.systemFont(ofSize: 15).fitFont
         bgNavView.addSubview(cancelBtn)
         cancelBtn.addTarget(self, action: #selector(cancelBtnClick), for: UIControl.Event.touchUpInside)
 
-        let titleL = UILabel(frame: CGRect(x: cancelBtn.frame.maxX, y: LXQrCodeConst.statusbarH, width: LXQrCodeConst.screenW - cancelBtn.frame.maxX * 2, height: 44))
+        let titleL = UILabel(frame: CGRect(x: cancelBtn.frame.maxX, y: LXQRCodeConst.statusbarH, width: LXQRCodeConst.screenW - cancelBtn.frame.maxX * 2, height: 44))
         titleL.text = "二维码"
         titleL.textColor = UIColor.white
         titleL.textAlignment = .center

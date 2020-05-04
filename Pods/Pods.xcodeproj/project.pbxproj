@@ -19,7 +19,7 @@
 		A84A502929E973FA2B3BFC561520DDDB /* LXFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C08C4BA5EC19BAD61DCC7ECCBF345 /* LXFit.swift */; };
 		BAE2A1F67EA4600BA42E3924C7D6F1A9 /* LXQRCodeManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F42BF62FE1337CFD482F6A8C31741A91 /* LXQRCodeManager-dummy.m */; };
 		BF60A520B5C7D99EB00CD1972EC4D2C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCB65B3DDB68CB2801794AC6AD13094 /* Foundation.framework */; };
-		C127AD9E29688F347CBEE0AE6118495A /* LXQrCodeConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1DF3661EE758A9C99723A3E7803955 /* LXQrCodeConst.swift */; };
+		C127AD9E29688F347CBEE0AE6118495A /* LXQRCodeConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1DF3661EE758A9C99723A3E7803955 /* LXQRCodeConst.swift */; };
 		E2FD1EEC352F034396A48014E603D623 /* Pods-LXQRCodeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E6ADC4AE86C41062EDD08E8E5A5721 /* Pods-LXQRCodeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E44063D61A63C3BF737DAE84292A10B3 /* Pods-LXQRCodeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B41A7B18346A43D8632B3F7506EF56B /* Pods-LXQRCodeModule-dummy.m */; };
 /* End PBXBuildFile section */
@@ -51,40 +51,40 @@
 /* Begin PBXFileReference section */
 		00A6C97B3AF4F98D5892B5FCB7F26948 /* LXQRCodeManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXQRCodeManager-prefix.pch"; sourceTree = "<group>"; };
 		05FD14158262C9770469178DB5ADACE5 /* LXFitManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXFitManager-umbrella.h"; sourceTree = "<group>"; };
-		078DF70187041C22398F855580A4A950 /* Pods_LXQRCodeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXQRCodeModule.framework; path = "Pods-LXQRCodeModule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		078DF70187041C22398F855580A4A950 /* Pods_LXQRCodeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXQRCodeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		099566D6C3D283F80A4B4044BB2BF25C /* LXQRCodeManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXQRCodeManager.release.xcconfig; sourceTree = "<group>"; };
 		0CC5C1E543E7A0E7881043AF10A39D11 /* LXQRCodeManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXQRCodeManager.modulemap; sourceTree = "<group>"; };
 		0EB195E8B137419CC816F520029728FE /* Pods-LXQRCodeModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXQRCodeModule.debug.xcconfig"; sourceTree = "<group>"; };
 		210710B83846B0CA28FD57365AC8809C /* LXFitManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXFitManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F4D39098C1452CE1C8E979B1AD9E7D /* LXFitManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXFitManager.debug.xcconfig; sourceTree = "<group>"; };
 		31CA2429D1081ACC7E55EC185D6F3719 /* Pods-LXQRCodeModule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXQRCodeModule-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3888DD53BBE7B7DFC0D5D8540E57BE76 /* LXFitManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXFitManager.framework; path = LXFitManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3888DD53BBE7B7DFC0D5D8540E57BE76 /* LXFitManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXFitManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B41A7B18346A43D8632B3F7506EF56B /* Pods-LXQRCodeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXQRCodeModule-dummy.m"; sourceTree = "<group>"; };
 		470A65C2C4AEDDBED835B9B0B0BEA5A3 /* LXQRCodeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXQRCodeViewController.swift; path = LXQRCodeManager/LXQRCodeViewController.swift; sourceTree = "<group>"; };
 		4CF2AEE9305820301716BC2E165BD723 /* LXQRCodeManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXQRCodeManager-umbrella.h"; sourceTree = "<group>"; };
 		554BD54E9D0D1EEB3B1D023FC8DD939D /* LXFitManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXFitManager.release.xcconfig; sourceTree = "<group>"; };
-		5BAEA7F54736F88BBF49E175F6CD30A5 /* LXQRCodeManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXQRCodeManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5BAEA7F54736F88BBF49E175F6CD30A5 /* LXQRCodeManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LXQRCodeManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7289325E3DF2964B53BC9B165D7F65F3 /* Pods-LXQRCodeModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXQRCodeModule.release.xcconfig"; sourceTree = "<group>"; };
 		78D71F0A043311BA8E159F6CBD00F5FD /* LXFitManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXFitManager-dummy.m"; sourceTree = "<group>"; };
 		7AF11CA7C4F25A489C1622F46F1EE898 /* LXQRCodeManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXQRCodeManager.debug.xcconfig; sourceTree = "<group>"; };
 		7D6F1C63D20F8FC532ED9FBC00AB14B0 /* LXQRCodeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXQRCodeView.swift; path = LXQRCodeManager/LXQRCodeView.swift; sourceTree = "<group>"; };
 		94EFA41C119A26E1AAC695C3572876E5 /* Pods-LXQRCodeModule-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXQRCodeModule-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4D5A9C54148E7154E587B42BD9E4F04 /* LXFitManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXFitManager-Info.plist"; sourceTree = "<group>"; };
 		A64C08C4BA5EC19BAD61DCC7ECCBF345 /* LXFit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXFit.swift; path = LXFitManager/LXFit.swift; sourceTree = "<group>"; };
 		B2E6ADC4AE86C41062EDD08E8E5A5721 /* Pods-LXQRCodeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXQRCodeModule-umbrella.h"; sourceTree = "<group>"; };
 		B6EE4247B777AC062604EF2BEAAFC715 /* Pods-LXQRCodeModule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXQRCodeModule-acknowledgements.plist"; sourceTree = "<group>"; };
 		B708B376ED0A2488E6EECCDBAC456733 /* Pods-LXQRCodeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXQRCodeModule.modulemap"; sourceTree = "<group>"; };
-		BEF0E77CDC70487603D93581CB2EA52B /* LXQRCodeManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXQRCodeManager.framework; path = LXQRCodeManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF0E77CDC70487603D93581CB2EA52B /* LXQRCodeManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXQRCodeManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3701F325F140A94653A88E8CC348D25 /* LXFitManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXFitManager.modulemap; sourceTree = "<group>"; };
 		C624C5F0C7FF81E7DAB523A20D254281 /* LXQRCode.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LXQRCode.bundle; path = LXQRCodeManager/LXQRCode.bundle; sourceTree = "<group>"; };
 		C88B1AB23373DF02CEF835C9A7ED4C99 /* LXQRCodeManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXQRCodeManager-Info.plist"; sourceTree = "<group>"; };
 		CDCB65B3DDB68CB2801794AC6AD13094 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DD1DF3661EE758A9C99723A3E7803955 /* LXQrCodeConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXQrCodeConst.swift; path = LXQRCodeManager/LXQrCodeConst.swift; sourceTree = "<group>"; };
+		DD1DF3661EE758A9C99723A3E7803955 /* LXQRCodeConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXQRCodeConst.swift; path = LXQRCodeManager/LXQRCodeConst.swift; sourceTree = "<group>"; };
 		E5CD89D4DFD7B003B36FB81EB80710D8 /* Pods-LXQRCodeModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXQRCodeModule-Info.plist"; sourceTree = "<group>"; };
 		F42BF62FE1337CFD482F6A8C31741A91 /* LXQRCodeManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXQRCodeManager-dummy.m"; sourceTree = "<group>"; };
 		F4A987A6133CF8DC118F3F55754600A3 /* LXFitManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXFitManager-prefix.pch"; sourceTree = "<group>"; };
-		F7F67DBE8522509C421644908E886A59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F7F67DBE8522509C421644908E886A59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +130,6 @@
 				A64C08C4BA5EC19BAD61DCC7ECCBF345 /* LXFit.swift */,
 				2C092B1CFA547B65B0AD9BAF46FAA01D /* Support Files */,
 			);
-			name = LXFitManager;
 			path = LXFitManager;
 			sourceTree = "<group>";
 		};
@@ -186,7 +185,7 @@
 		660AA20B9FF20289F856A816F1469989 /* LXQRCodeManager */ = {
 			isa = PBXGroup;
 			children = (
-				DD1DF3661EE758A9C99723A3E7803955 /* LXQrCodeConst.swift */,
+				DD1DF3661EE758A9C99723A3E7803955 /* LXQRCodeConst.swift */,
 				7D6F1C63D20F8FC532ED9FBC00AB14B0 /* LXQRCodeView.swift */,
 				470A65C2C4AEDDBED835B9B0B0BEA5A3 /* LXQRCodeViewController.swift */,
 				D74BD5ACE62D5DF8D5D44A9FFB2E2D32 /* Pod */,
@@ -421,7 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C127AD9E29688F347CBEE0AE6118495A /* LXQrCodeConst.swift in Sources */,
+				C127AD9E29688F347CBEE0AE6118495A /* LXQRCodeConst.swift in Sources */,
 				BAE2A1F67EA4600BA42E3924C7D6F1A9 /* LXQRCodeManager-dummy.m in Sources */,
 				417129F6E49CCB08278EEAC98266B9A6 /* LXQRCodeView.swift in Sources */,
 				12591940B20EFAE812636F6E6262370C /* LXQRCodeViewController.swift in Sources */,
