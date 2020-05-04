@@ -1,0 +1,28 @@
+PODS:
+  - LXAppConstManager (1.0.0)
+  - LXFitManager (1.0.0)
+  - LXQRCodeManager (1.0.0):
+    - LXAppConstManager
+    - LXFitManager
+
+DEPENDENCIES:
+  - LXQRCodeManager (from `./`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LXAppConstManager
+  trunk:
+    - LXFitManager
+
+EXTERNAL SOURCES:
+  LXQRCodeManager:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  LXAppConstManager: 27d1ac00e75a4e8c3602ae1a6858d948d2e40d1c
+  LXFitManager: e8f88896ba1c848c263c49250b590802a987ab3e
+  LXQRCodeManager: 4141ecf324c31d3f27a67eb9fadcd8903d15af00
+
+PODFILE CHECKSUM: b511725382061db9503360c37a10dc8baa4e805b
+
+COCOAPODS: 1.9.1

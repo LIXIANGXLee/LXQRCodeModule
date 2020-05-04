@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-LXQRCodeModule/Pods-LXQRCodeModule-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LXAppConstManager/LXAppConstManager.framework
+${BUILT_PRODUCTS_DIR}/LXFitManager/LXFitManager.framework
+${BUILT_PRODUCTS_DIR}/LXQRCodeManager/LXQRCodeManager.framework
