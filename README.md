@@ -18,6 +18,22 @@
   
   ### 推荐使用继承用法，  也可以直接调用LXQRCodeViewController
 ```
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<true/>
+</plist>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <string>en</string>
+    <string>zh_CN</string>
+</array>
+</plist>
+
 class LXTestViewController: LXQRCodeViewController {
     override func setCallBack(qrCode: String) {
          UIApplication.shared.open(URL(string: qrCode)!, options: [:], completionHandler: nil)

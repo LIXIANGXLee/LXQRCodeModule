@@ -19,13 +19,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.red
         
-        qrCode.callBack = { type in
-            
-            
-            if case .success(let qrStr) = type {
-               
-            }
-        }
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
