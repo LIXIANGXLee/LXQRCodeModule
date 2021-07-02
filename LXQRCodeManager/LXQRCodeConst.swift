@@ -13,14 +13,27 @@ import UIKit
 /// 定义一下app经常用到的全局常量
 public struct LXQRCodeConst {
 
-   ///根据高度来判断是否是带刘海的手机,也可以通过safaAreaInserts来判断
-    public static let isIPhoneX    = (LXQRCodeConst.screenH == CGFloat(812) || LXQRCodeConst.screenH == CGFloat(896)) ? true : false
     ///app屏幕宽度
     public static let screenW = CGFloat(UIScreen.main.bounds.width)
     ///app屏幕高度
     public static let screenH = CGFloat(UIScreen.main.bounds.height)
     ///app导航高度
-    public static let navbarH = isIPhoneX ? CGFloat(88.0) : CGFloat(64.0)
+    public static let navbarH = statusBarHeight + 44
     ///状态栏高度
-    public static let statusbarH = isIPhoneX ? CGFloat(44.0) : CGFloat(20.0)
+    public static let statusbarH = statusBarHeight
+    
+    /// 获取状态栏高度
+    private static var statusBarHeight: CGFloat {
+        var statusH: CGFloat = UIApplication.shared.statusBarFrame.height
+        if statusH == 0, #available(iOS 13.0, *) {
+            statusH = UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
+        }
+        
+        if  statusH == 0, #available(iOS 11.0, *)  {
+            statusH = UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0
+        }
+        
+        return statusH
+    }
+
 }
